@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/otp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 4 Digit OTP Received "
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/your_otp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/otp_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:ems="4"
+        android:hint="OTP"
+        android:backgroundTint="@color/dp_accent"
+        android:gravity="center"
+        android:inputType="numberPassword" />
+
+
+
+
+    <Button
+        android:id="@+id/otpbtn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/btn_color"
+        android:text="continue"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="@dimen/btn_margin_btm"/>
+
+
+
+</RelativeLayout>
